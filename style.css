@@ -1,0 +1,274 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+img{
+    display: inline-block;
+}
+
+/* body{
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    font-weight:100;
+    -webkit-font-smoothing:antialiased;
+} */
+
+.wrapper{
+    width: 970px;
+    height: 1000px;
+
+}
+.header img{
+    width: 74px;
+    position: absolute;
+    top: 0px;
+
+}
+.header h1{
+    display: inline-block;
+    margin: 20px 0 0 75px;
+}
+.header h1 span{
+    color: #26669c;
+}
+
+.header h2{
+    background: #27669c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#27669c, #5484ab, #27669c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#27669c, #5484ab, #27669c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#27669c, #5484ab, #27669c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#27669c, #5484ab, #27669c); /* Standard syntax */
+    color: white;
+    padding: 10px;
+}
+
+.main{
+    /* background-color: lightgrey; */
+    background: rgba(224,217,224,1);
+    background: -moz-linear-gradient(top, rgba(224,217,224,1) 0%, rgba(246,246,246,0.96) 10%, rgba(255,252,255,0.91) 23%, rgba(255,252,255,0.61) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,217,224,1)), color-stop(10%, rgba(246,246,246,0.96)), color-stop(23%, rgba(255,252,255,0.91)), color-stop(100%, rgba(255,252,255,0.61)));
+    background: -webkit-linear-gradient(top, rgba(224,217,224,1) 0%, rgba(246,246,246,0.96) 10%, rgba(255,252,255,0.91) 23%, rgba(255,252,255,0.61) 100%);
+    background: -o-linear-gradient(top, rgba(224,217,224,1) 0%, rgba(246,246,246,0.96) 10%, rgba(255,252,255,0.91) 23%, rgba(255,252,255,0.61) 100%);
+    background: -ms-linear-gradient(top, rgba(224,217,224,1) 0%, rgba(246,246,246,0.96) 10%, rgba(255,252,255,0.91) 23%, rgba(255,252,255,0.61) 100%);
+    background: linear-gradient(to bottom, rgba(224,217,224,1) 0%, rgba(246,246,246,0.96) 10%, rgba(255,252,255,0.91) 23%, rgba(255,252,255,0.61) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0d9e0', endColorstr='#fffcff', GradientType=0 );
+
+}
+
+.leftside{
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.leftside h5{
+    padding-top: 15px;
+}
+
+.leftside p{
+    font-size: .7em;
+    font-weight: bold;
+    width: 225px;
+    margin: 10px 0 15px 0;
+}
+
+
+.darkerblue{
+    color: #2d6b9f;
+}
+
+
+
+#alert{
+    color: #d72a2a;
+}
+
+button{
+    color: white;
+    border-radius: 5px;
+    width: 225px;
+    height: 36px;
+    font-size: .9em;
+}
+
+.leftside .video{
+    margin-bottom: 2px;
+    /* background-color: #6297c0; */
+    background: #5b91bc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5b91bc, #2b689c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5b91bc, #2b689c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5b91bc, #2b689c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5b91bc, #2b689c); /* Standard syntax */
+}
+
+.leftside .orange{
+    margin-bottom: 25px;
+    background: #ebb56d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ebb56d, #ee7403); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ebb56d, #ee7403); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ebb56d, #ee7403); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ebb56d, #ee7403); /* Standard syntax */
+
+}
+
+.ad .aqua{
+    background: #7cd0de; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#7cd0de, #04bcd7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#7cd0de, #04bcd7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#7cd0de, #04bcd7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#7cd0de, #04bcd7); /* Standard syntax */
+
+}
+
+.ad{
+    border-top: 2px solid #b6b6b6;
+    width: 230px;
+    height: 340;
+    padding-top: 25px;
+    color: white;
+    background-image: url("images/ad_background.png");
+    background-position: center;
+    background-clip:content-box;
+}
+
+#adtext{
+    font-size: 1.4em;
+    font-weight: lighter;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.ad img{
+    height: 120px;
+    margin: 0 0 10px 62px;
+
+}
+
+.ad button{
+    margin-bottom: 25px;
+}
+
+.arrowlight{
+    color:#82dbe9;
+}
+
+.arrowmid{
+    color: #bdecf4;
+} 
+
+.content{
+    display: inline-block;
+    width: 695px;
+    margin-left: 25px;
+}
+
+.contenttop{
+    padding-top: 1px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #b6b6b6; 
+}
+
+.contenttop img{
+    width: 18px;
+    vertical-align: top;
+    padding-top: 3px;
+}
+.contenttop h5{
+    display: inline-block;
+    color: #326ea0;
+    vertical-align: top;
+    padding-top: 8px;
+
+}
+
+.ctopright{
+    display: inline-block;
+    margin-left: 460px; 
+}
+
+.ctopright img{
+    width: 35px;
+    margin: 5px 6px 0 0;
+}
+
+.ctoprighttxt{
+    display: inline-block;
+    font-size: .5em;
+}
+.ctoprighttxt p{
+    text-align: right;
+}
+
+#phone{
+    font-size: 2.6em;
+    color: #00c0dd;
+
+}
+
+.content h3{
+    color: #27679d;
+    padding: 2px 0 4px 0;
+}
+
+.content p{
+    font-size: .8em;
+}
+
+.keywordaqua{
+    color: #1fa3b6;
+}
+.keywordthick{
+    font-weight: bold;
+}
+
+.content ul{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: .8em;
+
+}
+
+.content li{
+    margin-bottom: 5px;
+}
+
+.contentbody img{
+    width: 250px;
+    margin-top: 13px;
+    margin-bottom: 9px;
+    margin-left: 206px;
+}
+
+.content ol{
+    margin-left: 50px;
+    font-size: .8em;
+}
+
+.contentbottom{
+    border-top: 4px solid #0087dd;
+    border-left: 4px solid #0087dd;
+    border-right:4px solid #0087dd;
+    margin-top: 13px;
+    -webkit-box-shadow: 5px 2px 4px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 2px 4px -3px rgba(0,0,0,0.75);
+    box-shadow: 5px 2px 4px -3px rgba(0,0,0,0.75);
+}
+.contentbottom img{
+    width: 100px;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-left: 8px;
+    margin-right: 15px;
+}
+
+.cbottomright{
+    display: inline-block;
+    width: 554px;
+}
+
+.cbottomright p{
+    margin-bottom: 5px;
+}
